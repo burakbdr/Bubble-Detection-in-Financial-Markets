@@ -2,11 +2,11 @@
 
 This project explores the development of an algorithm leveraging the Augmented Dickey-Fuller (ADF) test to identify bubbles within financial time series.
 
-### Backward Supremum Augmented Dickey-Fuller (BSADF) Test
+## Backward Supremum Augmented Dickey-Fuller (BSADF) Test
 
 The algorithm developed by Peter C. B. Phillips, Shu-Ping Shi, and Jun Yu is known for its application in detecting financial bubbles and periods of explosive behavior in time series data. The algorithm builds upon the traditional Augmented Dickey-Fuller (ADF) test for unit roots by incorporating a recursive right-tailed test procedure.
 
-#### Key Concepts and Components
+### Key Concepts and Components
 
 - **Augmented Dickey-Fuller (ADF) Test:**
 
@@ -22,7 +22,7 @@ The algorithm developed by Peter C. B. Phillips, Shu-Ping Shi, and Jun Yu is kno
 
     The recursive nature of the BSADF test allows for the identification of the starting and ending points of explosive periods. This is achieved by calculating the test statistics over a moving window of time, enhancing the ability to detect structural breaks and periods of non-stationarity.
 
-#### Applications
+### Applications
 
  1) **Financial Bubbles**
 
